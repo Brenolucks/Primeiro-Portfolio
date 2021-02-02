@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0 auto;
+}
+
+h1,
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container img {
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+
+    border-radius: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3.5rem;
+}
+
+.container section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.container p {
+    display: flex;
+    justify-content: center;
+}
+
+.container .buttons-group {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 40px;
+}
+
+.container button {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-google {
+    color: rgb(211, 84, 84);
+}
+
+.fa-whatsapp {
+    color: rgb(43, 172, 43);
+}
+
+.container .footer p {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
